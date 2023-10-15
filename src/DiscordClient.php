@@ -21,7 +21,7 @@ use GuzzleHttp\Command\Result;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use Psr\Http\Message\ResponseInterface;
-use Psr\Log\LoggerInterface;
+use Monolog\Logger;
 use RestCord\Logging\MessageFormatter;
 use RestCord\RateLimit\Provider\AbstractRateLimitProvider;
 use RestCord\RateLimit\Provider\MemoryRateLimitProvider;
