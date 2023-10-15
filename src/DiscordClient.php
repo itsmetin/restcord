@@ -58,7 +58,7 @@ class DiscordClient
     private $categories = [];
 
     /**
-     * @var LoggerInterface
+     * @var Logger
      */
     private $logger;
 
